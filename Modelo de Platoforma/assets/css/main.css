@@ -668,7 +668,7 @@ table{border-collapse:collapse;border-spacing:0}
 *{box-sizing:border-box;font-family:Roboto}
 .home .tematica-title,.home .tematica-title span{font-family:Lobster}
 .clearfix:after{content:"";display:table;clear:both}
-body{background:#464b5c;width:1280px;display:block;margin:0 auto}
+body{background:#0f0faa;width:1280px;display:block;margin:0 auto}
 
 .social {
     margin-top: 20px;
@@ -883,7 +883,7 @@ header nav ul li a:hover .tooltip-title{opacity:1}
 .linha-tempo .linha-tempo-legendas span{display:block;width:100;margin-top:20px;font-size:15px;font-style:italic;font-weight:900;color:#fff;text-transform:uppercase}
 .linha-tempo .linha-tempo-legendas span.yellow{color:#ffde59}
 .linha-tempo .timeline{position:relative;width:100%;overflow:hidden}
-.linha-tempo .timeline-bar{position:absolute;width:1px;top:0;bottom:0;background-color:#fff}
+.linha-tempo .timeline-bar{position:absolute;width:1px;top:0;bottom:0;background-color:rgb(139, 6, 6)}
 .linha-tempo .timeline-bar-fill{display:none;background-color:#009ABB;position:absolute;left:0;right:0;top:0;height:0;transition:all .5s ease}
 .linha-tempo .timeline-state{position:relative;width:100%;min-height:0;height:auto;margin-bottom:30px}
 .linha-tempo .timeline-state:after{display:block;content:'';clear:both}
