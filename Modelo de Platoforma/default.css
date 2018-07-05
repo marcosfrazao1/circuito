@@ -203,9 +203,6 @@ a:hover {
   font-weight: 900;
   font-style: italic;
   text-align: center;
-  .transition();
-
-
 }
 
 .btn-voltar:hover {
@@ -232,3 +229,4 @@ a:hover {
 		text-indent: 30px;
 	}
 }
+
