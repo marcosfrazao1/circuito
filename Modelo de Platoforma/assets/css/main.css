@@ -18,7 +18,7 @@ abbr[title]{border-bottom:1px dotted}
 b,optgroup,strong{font-weight:700}
 dfn{font-style:italic}
 h1{font-size:2em;margin:.67em 0}
-mark{background:#ff0;color:#000}
+mark{background:rgb(150, 150, 72);color:#000}
 small{font-size:80%}
 sub,sup{font-size:75%;line-height:0;vertical-align:baseline}
 sup{top:-.5em}
@@ -908,7 +908,7 @@ header nav ul li a:hover .tooltip-title{opacity:1}
 .linha-tempo .timeline-state.timeline-animate .timeline-content{opacity:1;margin-left:0}
 .linha-tempo .timeline-state.timeline-animate .timeline-image{opacity:1}
 .linha-tempo .timeline-state.timeline-state-yellow .timeline-content{color:#ffde58}
-.linha-tempo .timeline-state.timeline-state-yellow .timeline-icon{background:#ffde58}
+.linha-tempo .timeline-state.timeline-state-yellow .timeline-icon{background:#f40000}
 #atividades{background:url(../img/bg-atividade.jpg) top center no-repeat;background-size:100% 100%;padding-bottom:50px}
 .atividades{width:1150px;margin:0 auto}
 .atividades .atividades-top h1,.atividades .atividades-top p{width:100%;text-align:center;font-size:30px;line-height:35px;display:block}
