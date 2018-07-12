@@ -684,7 +684,7 @@ body{background:#99a1bd;width:1280px;display:block;margin:0 auto}
     text-align: center;
 }
 .video-lightbox{display:none;position:fixed;width:100%;height:100vh;top:0;left:0;background:rgba(0,0,0,.7);z-index:9999}
-.video-lightbox .video-lightbox-content{position:absolute;min-width:600px;min-height:400px;padding:10px 20px;background:#fff;border-radius:10px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.video-lightbox .video-lightbox-content{position:absolute;min-width:600px;min-height:400px;padding:10px 20px;background:#fff;border-radius:0%;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .video-lightbox .video-lightbox-content .video-lightbox-header{position:relative;text-align:right}
 .video-lightbox .video-lightbox-content .video-lightbox-header .video-lightbox-close{color:#000;font-size:18px;text-decoration:none}
 .red_btn,header nav ul li a{color:#fff;font-weight:900;text-transform:uppercase;text-decoration:none}
