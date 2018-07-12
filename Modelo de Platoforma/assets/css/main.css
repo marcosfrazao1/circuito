@@ -39,23 +39,17 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
 .fa.fa-pull-left,.fa.pull-left{margin-right:.3em}
 table{border-collapse:collapse;border-spacing:0}
-/*!
- *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-
 
 
 
 *{box-sizing:border-box;font-family:Roboto}
 .home .tematica-title,.home .tematica-title span{font-family:Lobster}
 .clearfix:after{content:"";display:table;clear:both}
-body{background:#99a1bd;width:1280px;display:block;margin:0 auto}
+body{background:#99a1bd;width:100%;display:block;margin:0 auto}
 /*^^ PLANO DE FUNDO DA PAGINA ^^*/
 
 
-.red_btn,header nav ul li a{color:#fff;font-weight:900;text-transform:uppercase;text-decoration:none}
-header{position:relative;width:1280px;height:72px;background:#464b5c;border-bottom:solid 10px rgba(39,45,65,.6);z-index:10;background-clip:padding-box}
+header{position:relative;width:100%;height:72px;background:#464b5c;border-bottom:solid 10px rgba(39,45,65,.6);z-index:10;background-clip:padding-box}
 header .logo{position:absolute;top:0;left:25px}
 header nav ul{float:right;margin:0;list-style:none}
 header nav ul li{display:inline-block;height:72px;margin:0 20px;line-height:72px}
@@ -63,8 +57,8 @@ header nav ul li a{position:relative;font-size:15px}
 header nav ul li a.active,header nav ul li a:hover{color:#22ABCF}
 header nav ul li a .tooltip-title{display:inline-block;position:absolute;top:100%;margin-top:10px;padding:0 10px;background:rgba(0,0,0,.7);z-index:9999;height:30px;line-height:30px;font-size:12px;color:#fff;border-radius:5px;opacity:0;-webkit-transition:opacity .4s ease;-moztransition:opacity .4s ease;transition:opacity .4s ease;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
 header nav ul li a:hover .tooltip-title{opacity:1}
-.home-main{position:relative;width:1280px;height:1129px;background:url(../img/bg-home.jpg) center no-repeat}
-.home-main h1{position:absolute;width:410px;top:40px;right:50px;color:#fff;font-size:65px;line-height:65px;font-weight:900;font-style:italic;text-transform:uppercase}
+.home-main{position:relative;width:100%;height:1129px;background:url(../img/bg-home.jpg) center no-repeat}  /* BACKGROUND  */
+.home-main h1{position: absolute;width:410px;top:40px;right:0px;color:#fff;font-size:65px;line-height:65px;font-weight:900;font-style:italic;text-transform:uppercase}
 .home-main p{position:absolute;width:300px;margin:0;padding:0;top:310px;right:70px;color:#474c5d;font-size:23px;font-weight:700;line-height:32px}
 .home-main .home-main-links{position:absolute;width:615px;top:800px;right:70px}
 .home-main .home-main-links a{display:block;float:left;width:300px;height:90px;line-height:90px;color:#fff;font-size:23px;font-weight:900;font-style:italic;text-align:center;margin-right:15px;margin-bottom:20px;text-decoration:none;text-transform:uppercase;letter-spacing:1px;transition:all .2s ease}
@@ -79,13 +73,16 @@ header nav ul li a:hover .tooltip-title{opacity:1}
 .home-main .btn-indique-obra{position:absolute;display:block;width:254px;height:auto;left:40px;top:600px;transition:all .2s ease}
 .home-main .btn-indique-obra img{display:block;width:100%}
 .home-main .btn-indique-obra:hover{-webkit-transform:scale(1.1);transform:scale(1.1);opacity:.7}
-.img-loader{position:fixed;width:1px;height:1px;top:-100px;left:-100px;visibility:hidden}
 .home{position:relative;width:1280px;padding-bottom:90%;margin-top:-10px}
 .home .link-mapa-barco{display:block;position:absolute;width:79px;height:85px;top:520px;left:750px;z-index:9}
 .home .btn-indique-obra{display:block;position:absolute;width:154px;height:auto;top:40px;left:550px;-webkit-transition:all .2s ease;-moztransition:all .2s ease;transition:all .2s ease}
 .home .mapa-bg,.home .mapa-ilustra{width:100%;left:0;position:absolute}
 .home .btn-indique-obra img{display:block;width:100%}
 .home .btn-indique-obra:hover{-webkit-transform:scale(1.1);transform:scale(1.1);opacity:.7}
+.img-loader{position:fixed;width:1px;height:1px;top:-100px;left:-100px;visibility:hidden}
+.red_btn,header nav ul li a{color:#fff;font-weight:900;text-transform:uppercase;text-decoration:none}
+
+
 
 
 /*  \/ TIMELINE \/  */
@@ -141,11 +138,11 @@ header nav ul li a:hover .tooltip-title{opacity:1}
 .atividades .atividades-bottom h2 img{vertical-align:middle;margin-right:30px}
 .atividades .atividades-bottom .atividades-btn-group{display:block}
 .atividades .atividades-bottom .atividades-btn-group .btn-atividades{float:left;margin-left:47px;margin-top:40px}
-.atividades .atividades-bottom .atividades-btn-group .btn-atividades:first-of-type,.atividades .atividades-bottom .atividades-btn-group .btn-atividades:nth-child(4){margin-left:0}
+.atividades .atividades-bottom .atividades-btn-group .btn-atividades:first-of-type .atividades .atividades-bottom .atividades-btn-group .btn-atividades:nth-child(4){margin-left:0}
 /*  \/ CSS das Questoes \/  */
 .atividade .atividade-center{position:relative;width:1100px;min-height:800px;height:auto;margin-top:100px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);padding-bottom:50px}
 .atividade .atividade-center .atividade-left{float:left;width:60%;padding-right:50px;opacity:0;-webkit-transition:all 300 ease;-moztransition:all 300 ease;transition:all 300 ease}
-.atividade .atividade-center .atividade-left.show{opacity:1}
+.atividade .atividade-center .atividade-left .show{opacity:1}
 .atividade .atividade-center .atividade-left .atividade-pergunta{display:block;width:100%;margin-bottom:45px;color:#fff;font-size:21px;line-height:35px;text-transform:none;font-weight:600;font-style:italic}
 .atividade .atividade-center .atividade-left .atividade-pergunta i{text-transform:none;font-weight:400}
 .atividade .atividade-center .atividade-left .atividade-pergunta span{font-style:normal}
@@ -171,17 +168,17 @@ header nav ul li a:hover .tooltip-title{opacity:1}
 .atividade .atividade-center .atividade-right .pontuacao-wrap .pontuacao{font-size:80px;font-weight:900;font-style:italic}
 .atividade .atividade-center .atividade-right .pontuacao-wrap .pontuacao .errada{color:#f05752}
 .atividade .atividade-center .atividade-right .pontuacao-wrap .pontuacao .correta{margin-left:10px;color:#54ef71}
-.atividade .atividade-center.atividade-resultado{text-align:center}
-.atividade .atividade-center.atividade-resultado .resultado-msg{display:block;width:100%;text-align:center;color:#fff;font-size:30px;font-weight:900;font-style:italic}
-.atividade .atividade-center.atividade-resultado .resultado-porc{display:block;width:100%;text-align:center;margin-top:30px;font-size:170.07px;font-weight:900;font-style:italic}
-.atividade .atividade-center.atividade-resultado .resultado-porc.positivo{color:#54ef71}
-.atividade .atividade-center.atividade-resultado .resultado-porc.negativo{color:#f05752}
-.atividade .atividade-center.atividade-resultado .resultado-erradas{display:block;width:1060px;margin:0 auto;padding:0;list-style:none}
-.atividade .atividade-center.atividade-resultado .resultado-erradas li{display:block;width:100%;margin-top:30px;padding-bottom:20px;border-bottom:solid 1px #fff}
-.atividade .atividade-center.atividade-resultado .resultado-erradas li>strong{display:block;width:100%;text-align:left;font-size:30px;font-weight:900;color:#fff;font-style:italic;line-height:35px;letter-spacing:1px;text-transform:uppercase}
-.atividade .atividade-center.atividade-resultado .resultado-erradas li table{width:100%;margin-top:20px}
-.atividade .atividade-center.atividade-resultado .resultado-erradas li table tr td{text-align:left;color:#fff;text-transform:uppercase;font-size:23px;vertical-align:top;border-spacing:0 10px;padding:10px 0 10px 25px}
-.atividade .atividade-center.atividade-resultado .resultado-erradas li table tr td.label{font-weight:700;width:232px;text-align:right;padding:10px 0}
-.atividade .atividade-center.atividade-resultado .resultado-erradas li table tr td.label.wrong{color:#f05752}
-.atividade .atividade-center.atividade-resultado .resultado-erradas li table tr td.label.correct{color:#54ef71}
-.atividade .atividade-center.atividade-resultado .resultado-refazer{display:inline-block;margin-top:50px;height:100px;line-height:100px;background:#f05752;color:#fff;padding:0 40px;font-size:30px;font-weight:700;font-style:italic;text-transform:uppercase;text-decoration:none}
+.atividade .atividade-center .atividade-resultado{text-align:center}
+.atividade .atividade-center .atividade-resultado .resultado-msg{display:block;width:100%;text-align:center;color:#fff;font-size:30px;font-weight:900;font-style:italic}
+.atividade .atividade-center .atividade-resultado .resultado-porc{display:block;width:100%;text-align:center;margin-top:30px;font-size:170.07px;font-weight:900;font-style:italic}
+.atividade .atividade-center .atividade-resultado .resultado-porc.positivo{color:#54ef71}
+.atividade .atividade-center .atividade-resultado .resultado-porc.negativo{color:#f05752}
+.atividade .atividade-center .atividade-resultado .resultado-erradas{display:block;width:1060px;margin:0 auto;padding:0;list-style:none}
+.atividade .atividade-center .atividade-resultado .resultado-erradas li{display:block;width:100%;margin-top:30px;padding-bottom:20px;border-bottom:solid 1px #fff}
+.atividade .atividade-center .atividade-resultado .resultado-erradas li>strong{display:block;width:100%;text-align:left;font-size:30px;font-weight:900;color:#fff;font-style:italic;line-height:35px;letter-spacing:1px;text-transform:uppercase}
+.atividade .atividade-center .atividade-resultado .resultado-erradas li table{width:100%;margin-top:20px}
+.atividade .atividade-center .atividade-resultado .resultado-erradas li table tr td{text-align:left;color:#fff;text-transform:uppercase;font-size:23px;vertical-align:top;border-spacing:0 10px;padding:10px 0 10px 25px}
+.atividade .atividade-center .atividade-resultado .resultado-erradas li table tr td.label{font-weight:700;width:232px;text-align:right;padding:10px 0}
+.atividade .atividade-center .atividade-resultado .resultado-erradas li table tr td.label.wrong{color:#f05752}
+.atividade .atividade-center .atividade-resultado .resultado-erradas li table tr td.label.correct{color:#54ef71}
+.atividade .atividade-center .atividade-resultado .resultado-refazer{display:inline-block;margin-top:50px;height:100px;line-height:100px;background:#f05752;color:#fff;padding:0 40px;font-size:30px;font-weight:700;font-style:italic;text-transform:uppercase;text-decoration:none}
