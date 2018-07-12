@@ -4,7 +4,7 @@ img,legend{border:0}
 legend,td,th{padding:0}
 .fa-ul>li,sub,sup{position:relative}
 .fa-fw,.fa-li{text-align:center}
-.home-main .btn-indique-obra,.home-main .home-main-links a,.red_btn{-webkit-transition:all .2s ease;-moztransition:all .2s ease}
+.home-main .btn-indique-obra,.home-main .home-main-links a,.red_btn{transition: all .2 ease;-webkit-transition:all .2s ease;-moztransition:all .2s ease}
 header,hr{box-sizing:content-box}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
@@ -668,8 +668,8 @@ table{border-collapse:collapse;border-spacing:0}
 *{box-sizing:border-box;font-family:Roboto}
 .home .tematica-title,.home .tematica-title span{font-family:Lobster}
 .clearfix:after{content:"";display:table;clear:both}
-body{background:#0f0faa;width:1280px;display:block;margin:0 auto}
-
+body{background:#99a1bd;width:1280px;display:block;margin:0 auto}
+/*^^ PLANO DE FUNDO DA PAGINA ^^*/
 .social {
     margin-top: 20px;
     float: right;
@@ -773,7 +773,7 @@ header nav ul li a:hover .tooltip-title{opacity:1}
 .home .filters .filter-box .filter-title.filter-title-help span{font-weight:400;font-style:italic}
 .home .filters .filter-box .filter-title.filter-title-help span:after{margin-left:20px}
 .home .filters .filter-box .filter-list{margin:14px 0}
-.home .filters .filter-box .filter-list a{display:inline-block;position:relative;float:left;width:190px;height:46px;padding-top:15px;padding-left:52px;color:#fff;text-transform:uppercase;font-weight:300;font-style:italic;text-decoration:none;margin:6px 0;opacity:.3;-webkit-transition:all .2s ease;-moztransition:all .2s ease;transition:all .2s ease}
+.home .filters .filter-box .filter-list a{display:inline-block;position:relative;float:none ;width:190px;height:46px;padding-top:15px;padding-left:52px;color:#fff;text-transform:uppercase;font-weight:300;font-style:italic;text-decoration:none;margin:6px 0;opacity:.3;-webkit-transition:all .2s ease;-moztransition:all .2s ease;transition:all .2s ease}
 .home .filters .filter-box .filter-list a:before{content:"";position:absolute;top:0;left:0;width:42px;height:46px;background-repeat:no-repeat;background-position:center}
 .home .filters .filter-box .filter-list a.active{opacity:1}
 .home .filters .filter-box .filter-list a.active:before{background-image:url(../img/icon-check.png)}
@@ -810,7 +810,7 @@ header nav ul li a:hover .tooltip-title{opacity:1}
 .home .box-info .box-info-top .box-info-title h2{display:block;width:100%;font-size:22px;line-height:25px;text-transform:uppercase;font-weight:900;margin-top:10px;margin-bottom:7px}
 .home .box-info .box-info-top .box-info-title small{display:block;width:100%;font-size:16px;font-weight:300;font-style:italic}
 .home .box-info .box-info-top .box-info-title .box-info-tags{display:block;width:100%}
-.home .box-info .box-info-top .box-info-title .box-info-tags label{display:inline-block;float:left;margin-top:5px;margin-right:5px;padding:10px 14px;font-size:16px;color:#fff;background:#000}
+.home .box-info .box-info-top .box-info-title .box-info-tags label{display:inline-block;float:none;margin-top:5px;margin-right:5px;padding:10px 14px;font-size:16px;color:#fff;background:#000}
 .home .box-info .box-info-top .box-info-title .box-info-tags label.lbl-publico-alvo{background:#bc3ad3}
 .home .box-info .box-info-top .box-info-title .box-info-tags label.lbl-nivel-escolaridade{background:#37b550}
 .home .box-info .box-info-top .box-info-title .box-info-tags label.lbl-linguagem-genero{background:#00bdef}
@@ -897,7 +897,7 @@ header nav ul li a:hover .tooltip-title{opacity:1}
 .linha-tempo .timeline-state .timeline-content .timeline-content-image span{display:block;width:100%;font-size:12px;font-style:italic}
 .linha-tempo .timeline-state .timeline-content>strong{font-size:20px;font-weight:900;margin-bottom:15px;font-style:italic;text-transform:uppercase}
 .linha-tempo .timeline-state .timeline-content>p{font-style:18px;line-height:24px}
-.linha-tempo .timeline-state .timeline-image{float:right;opacity:0;width:48%;padding:0;paddding-right:8%;text-align:left;transition:all .5s ease}
+.linha-tempo .timeline-state .timeline-image{float:right;opacity:0;width:48%;padding:0;text-align:left;transition:all .5s ease}
 .linha-tempo .timeline-state .timeline-image img{width:auto}
 .linha-tempo .timeline-state .timeline-image span{display:block;width:100%;margin-top:10px;font-size:12px;font-style:italic;text-align:left;color:#fff}
 .linha-tempo .timeline-state.timeline-state-right .timeline-content{float:right;margin-right:-48%;text-align:left;padding-left:0;padding-right:18%}
@@ -917,7 +917,7 @@ header nav ul li a:hover .tooltip-title{opacity:1}
 .atividades .atividades-top p{margin:30px 0 0;padding:0;font-weight:300;color:#fff}
 .atividades .atividades-bottom h2,.atividades .btn-atividades{font-weight:900;color:#fff;font-style:italic;text-align:center}
 .atividades .atividades-top .btn-iniciar{display:block;float:none;width:204px;margin:30px auto;font-size:23px}
-.atividades .btn-atividades{display:inline-block;float:left;width:352px;height:60px;background:#e73e3e;line-height:60px;font-size:16px;text-transform:uppercase;text-decoration:none;-webkit-transition:all .2s ease;-moztransition:all .2s ease;transition:all .2s ease}
+.atividades .btn-atividades{display:inline-block;float:none;width:352px;height:60px;background:#e73e3e;line-height:60px;font-size:16px;text-transform:uppercase;text-decoration:none;-webkit-transition:all .2s ease;-moztransition:all .2s ease;transition:all .2s ease}
 .atividades .btn-atividades:hover{opacity:.7}
 .atividades .atividades-bottom h2{display:block;width:100%;height:77px;font-size:30px;line-height:77px;letter-spacing:1px}
 .atividades .atividades-bottom h2 img{vertical-align:middle;margin-right:30px}
