@@ -70,15 +70,10 @@ header nav ul li a:hover .tooltip-title{opacity:1}
 .home-main .home-main-links a.brown{background:#73553e}
 .home-main .home-main-links a.purple{background:#ad75b7}
 .home-main .home-main-links a:hover{opacity:.7}
-.home-main .btn-indique-obra{position:absolute;display:block;width:254px;height:auto;left:40px;top:600px;transition:all .2s ease}
+.home-main .btn-indique-obra{position: relative;;display:block;width:254px;height:auto;left:40px;top:800px;transition:all .2s ease}
 .home-main .btn-indique-obra img{display:block;width:100%}
 .home-main .btn-indique-obra:hover{-webkit-transform:scale(1.1);transform:scale(1.1);opacity:.7}
 .home{position:relative;width:1280px;padding-bottom:90%;margin-top:-10px}
-.home .link-mapa-barco{display:block;position:absolute;width:79px;height:85px;top:520px;left:750px;z-index:9}
-.home .btn-indique-obra{display:block;position:absolute;width:154px;height:auto;top:40px;left:550px;-webkit-transition:all .2s ease;-moztransition:all .2s ease;transition:all .2s ease}
-.home .mapa-bg,.home .mapa-ilustra{width:100%;left:0;position:absolute}
-.home .btn-indique-obra img{display:block;width:100%}
-.home .btn-indique-obra:hover{-webkit-transform:scale(1.1);transform:scale(1.1);opacity:.7}
 .img-loader{position:fixed;width:1px;height:1px;top:-100px;left:-100px;visibility:hidden}
 .red_btn,header nav ul li a{color:#fff;font-weight:900;text-transform:uppercase;text-decoration:none}
 
